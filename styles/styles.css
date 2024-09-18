@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    font-family: Figtree;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+body {
+    background-color: #F4D04E;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.blog-container {
+    background-color: #FFFFFF;
+    width: 383px;
+    height: 521px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #111111;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0 rgb(0, 0, 0);
+}
+
+.blog-image {
+    height: 200px;
+    width: 336px;
+    margin: 24px;
+    border-radius: 10px;
+}
+
+.blog-content {
+    height: 194px;
+    width: 336px;
+    margin: 0 auto;
+}
+
+.category {
+    background-color: #F4D04E;
+    color: hsl(0, 0%, 7%);
+    width: 82px;
+    height: 29px; 
+    border-radius: 4px;
+    font-weight: 800;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.publish-date {
+    color: hsl(0, 0%, 42%);
+    margin-bottom: 12px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
+.title:hover {
+    color: #F4D04E;
+}
+
+.description {
+    color: hsl(0, 0%, 42%);
+    font-size: 16px;
+}
+
+.author-profile {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.profile-pict {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.profile-name {
+    font-weight: 800;
+    margin-left: 12px;
+}
+
+@media (max-width: 376px) {
+    .blog-container {
+        width: 326px;
+        height: 500px;
+    }
+
+    .blog-image {
+        height: 200px;
+        width: 279px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .blog-content {
+        margin: 0 auto;
+        width: 279px;
+    }
+
+    .category {
+        width: 73px;
+        height: 26px;
+        font-size: 12px;
+    }
+
+    .publish-date {
+        font-size: 12px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .profile-name {
+        font-size: 14px;
+    }
+
+    .author-profile {
+        display: flex;
+        align-items: center;
+        margin-top: 0;
+        margin-left: 24px;
+    }
+}
