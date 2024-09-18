@@ -30,9 +30,13 @@ Users should be able to:
 Here is a screenshot of the final result.
 
 ![](./sreenshot/screenshot-2024-09-19-01-34-01.png)
+
 width - 1440px
 
+
+
 ![](./sreenshot/screenshot-2024-09-19-01-34-27.png)
+
 width - 375px
 
 ## Links
